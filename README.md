@@ -40,3 +40,5 @@ Each concrete state class implements the VendingMachineState interface, providin
    current state object through its corresponding methods.
 
 ### UML Diagram
+![image](https://github.com/user-attachments/assets/98b6c605-af95-4672-b96c-f9ab6e0d418b)
+
