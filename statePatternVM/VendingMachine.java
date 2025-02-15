@@ -9,10 +9,9 @@ public class VendingMachine {
         this.balance = 0.0;
         vmstate = new IdleState();
     }
-    public void setState(VendingMachineState vmState){
-        this.vmstate = vmState;
+    public void selectItem(){
+        vmstate.selectItem(this);
     }
-
     public void insertCoin(Double coin){
         vmstate.insertCoin(coin,this);
     }
@@ -31,8 +30,9 @@ public class VendingMachine {
     public int getInventory(){
         return inventory;
     }
-    public void selectItem(){
-        vmstate.selectItem(this);
+    public void setState(VendingMachineState vmState){
+        this.vmstate = vmState;
     }
+
 
 }
