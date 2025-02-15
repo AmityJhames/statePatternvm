@@ -19,6 +19,6 @@ public class OutOfOrderState implements VendingMachineState{
 
     @Override
     public void setOutOfOrder(VendingMachine vm) {
-        System.out.println("Machine is already Out Of Order.");
+        System.out.println("Vending Machine is already Out Of Order.");
     }
 }

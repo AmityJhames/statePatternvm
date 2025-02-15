@@ -4,7 +4,7 @@ public class DispensingState implements VendingMachineState {
 
     @Override
     public void selectItem(VendingMachine vm) {
-        System.out.println("Can't select an ite,while dispensing.");
+        System.out.println("Can't select an item,while dispensing.");
     }
 
     @Override
